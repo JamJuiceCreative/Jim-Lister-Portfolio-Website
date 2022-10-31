@@ -1,0 +1,25 @@
+/* $primary-color: #15214B; */
+
+// default settings
+
+@import './default/default';
+
+
+// components
+
+@import './components/header';
+
+@import'./components/content';
+
+// All pages basic styles
+
+
+html {
+    font-size: 24pt;
+}
+
+body {
+    color: white;
+    font-family: 'Allerta', sans-serif;
+   
+}
