@@ -45,10 +45,10 @@
   .header .home-icon {
     margin-top: 15px;
     margin-left: 15px;
-    width: 75px;
+    min-width: 50px;
   }
   .header .menu-icon {
-    width: 50px;
+    min-width: 50px;
     margin-right: 15px;
     margin-bottom: 15px;
   }
@@ -64,7 +64,7 @@
     background-size: cover;
     display: flex;
     text-align: right;
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
   .header .header-top-span {
     width: 10%;
@@ -103,6 +103,9 @@
     margin-top: 40px;
     margin-right: 50px;
   }
+  .header .nav span {
+    width: 30%;
+  }
   .header .nav ul {
     white-space: nowrap;
     width: 75%;
@@ -112,6 +115,7 @@
     color: white;
   }
   .header .nav ul a {
+    margin: 10px;
     text-decoration: none;
     width: 20%;
   }
@@ -132,7 +136,9 @@
   .header .home-icon-container .home-icon {
     margin-top: 20px;
     margin-left: 20px;
-    width: 75px;
+    max-width: 100px;
+    min-width: 50px;
+    width: 100%;
   }
   .header .menu-icon {
     display: none;
@@ -143,22 +149,22 @@
 }
 /* small devices (portrait tablet and large phones */
 @media only screen and (max-width: 500px) {
-  .content {
+  .about {
     margin: 25px 15px;
     display: flex;
     flex-direction: column;
     color: #15214B;
   }
-  .content p {
+  .about p {
     font-size: 0.75rem;
     margin: 25px;
     text-align: center;
     text-align: left;
   }
-  .content h3 {
+  .about h3 {
     margin: 25px 0px 20px 5px;
   }
-  .content h4 {
+  .about h4 {
     margin: 25px 0px 25px 5px;
   }
   .card-container {
@@ -228,23 +234,21 @@
 }
 /* Larger devices */
 @media only screen and (min-width: 500px) {
-  .content {
-    margin: 25px 15px;
+  .about {
     display: flex;
     flex-direction: column;
     color: #15214B;
   }
-  .content p {
+  .about p {
     font-size: 0.75rem;
-    margin: 25px;
     text-align: center;
     text-align: left;
   }
-  .content h3 {
-    margin: 25px 0px 20px 5px;
+  .about h3 {
+    margin: 25px 0px 20px 0px;
   }
-  .content h4 {
-    margin: 25px 0px 25px 5px;
+  .about h4 {
+    margin: 25px 0px 25px 0px;
   }
   .card-container {
     margin-left: 25px;
@@ -288,54 +292,82 @@
     margin-top: 30px;
     margin-left: 30px;
     font-size: 0.65em;
-    line-height: 1.5em;
+    line-height: 1.5rem;
   }
   .card-container .box .sub-list {
     margin-left: 20px;
   }
-  .qualifications-container {
-    display: flex;
-    justify-content: flex-end;
-    line-height: 2rem;
-  }
   .introduction-container {
-    margin: 50px;
-    width: 50%;
+    margin-top: 50px;
+    max-width: 900px;
+    width: 100%;
   }
   .introduction-text {
+    width: 100%;
     line-height: 1.5rem;
   }
-  .koala-image-container {
-    width: 20%;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-  }
-  .koala-image-container .koala-image {
-    width: 50%;
-  }
   .all-cards {
+    min-width: 25%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
+  }
+  .all-cards .card-container {
+    max-width: 400px;
   }
   .card-container-container {
     display: flex;
     justify-content: center;
-    align-items: flex-start;
-    width: 50%;
+    align-items: flex-end;
+    max-width: 100%;
   }
-  .content-top {
-    display: flex;
-    justify-content: flex-end;
+  .card-container-container .card-container {
+    min-width: 300px;
+    max-width: 500px;
   }
-  .content {
+  .about {
+    margin: 25px;
     display: flex;
+    flex-direction: column;
+  }
+  .about .about-top {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
   }
   .qualifications-container {
+    margin-top: 50px;
     display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .qualifications-container .qualifications-text {
+    width: 95%;
   }
   .qualifications-container .qualifications-content {
-    width: 75%;
+    max-width: 900px;
+    width: 80%;
+  }
+  .qualifications-container .koala-image-container {
+    width: 20%;
+    min-width: 230px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+  }
+  .qualifications-container .koala-image-container .koala-image {
+    max-height: 300px;
+    max-width: 300px;
+    width: 25%;
+    min-width: 230px;
+  }
+  .qualifications-text {
+    line-height: 1.8rem;
+    margin-left: 5px;
+  }
+  .introduction-text {
+    line-height: 1.5rem;
   }
 }
 /* small devices (portrait tablet and large phones */
@@ -392,6 +424,7 @@
   footer .socials-container img {
     padding: 5px;
     width: 15%;
+    max-width: 110px;
   }
   footer .footer-text {
     text-align: right;
@@ -407,4 +440,5 @@ html {
 body {
   color: white;
   font-family: "Allerta", sans-serif;
+  max-width: 6400px;
 }/*# sourceMappingURL=style.css.map */

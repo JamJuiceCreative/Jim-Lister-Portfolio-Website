@@ -9,7 +9,7 @@
 
 @import './components/header';
 
-@import'./components/content';
+@import'./components/about';
 
 @import'./components/footer';
 
@@ -23,5 +23,11 @@ html {
 body {
     color: white;
     font-family: 'Allerta', sans-serif;
-   
+    max-width: $content-max-width;
 }
+
+.qualifications-content{
+    
+}
+
+
