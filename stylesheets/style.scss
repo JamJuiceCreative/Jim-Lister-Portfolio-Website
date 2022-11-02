@@ -11,7 +11,11 @@
 
 @import'./components/about';
 
+@import './components/blog';
+
 @import'./components/footer';
+
+
 
 // All pages basic styles
 
@@ -26,8 +30,8 @@ body {
     max-width: $content-max-width;
 }
 
-.qualifications-content{
-    
+@media only screen and (max-width: 500px){
+body {min-width: 300px;}
 }
 
 
