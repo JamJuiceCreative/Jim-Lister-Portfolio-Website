@@ -1,0 +1,548 @@
+/* small devices (portrait tablet and large phones */
+
+@media only screen and (max-width: 500px) {
+
+   
+    
+
+    .about {
+        
+        margin:25px 15px;
+        display: flex;
+        flex-direction: column;
+        color: $primary-color;
+        p {
+            font-size: .75rem;
+            margin: 25px;
+            text-align: center;
+        text-align: left;}
+        h3 {
+            margin: 25px 0px 20px 5px;
+        }
+        h4 {
+            margin: 25px 0px 25px 5px;
+        }
+        
+    }
+
+    .resume-card-container-container {
+        width: 100%;
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+        .resume-card-container {
+            margin-left: 25px;
+            margin-right: 25px;
+            margin-top: 25px;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border-radius: 25px 25px 0px 0px;
+            width: 100%;
+            min-width:300px;
+            
+            height: 400px;
+            background: $secondary-color;
+                    
+            h4 {
+                margin: 25px 0px 25px 5px;
+            }
+            .box{
+                background: $primary-color;
+                display: flex;
+                justify-content: flex-start;
+                align-items: flex-start;
+                border-radius: 25px 25px 0px 0px;
+                width: 95%;
+                height: 80%;
+            }
+            .resume-icon-container{
+                display:flex;
+                justify-content: center;
+                align-items: center;
+                width:100%;
+                height: 100%;
+            }
+            .resume-icon {
+                height: 50%;
+                width: 50%;
+                margin-left: 40px;
+            }
+        }
+    }
+    
+    .card-container {
+        margin-top: 25px;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center; 
+        border-radius: 25px 25px 0px 0px;
+        width: 100%;
+        height: 400px;
+        background: $secondary-color;
+        .box{
+            background: $primary-color;
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+            border-radius: 25px 25px 0px 0px;
+            width: 95%;
+            height: 80%;
+            .resume-icon-container{
+                display:flex;
+                justify-content: center;
+                align-items: center;
+                width:100%;
+                height: 100%;
+            }
+            .resume-icon {
+                height: 50%;
+                width: 50%;
+                margin-left: 40px;
+            }
+        
+          .list-heading{
+            list-style: none;
+          }    
+          .list {
+            margin-top: 30px;
+            margin-left: 30px;
+            font-size: .65em;
+            line-height: 1.5em;        
+          }
+          .sub-list {
+            margin-left: 20px;
+          }
+        }
+    }
+        .qualifications-list {
+        line-height: 2rem;
+    }
+
+    .introduction-text {
+        line-height : 1.5rem;
+    }
+
+    .koala-image-container {
+        display: flex;
+        justify-content: center;
+        .koala-image{
+            width: 50%;
+        }
+
+    }
+
+    .qualifications-text {
+        line-height: 1.8rem;
+    }
+
+    .introduction-text {
+        line-height : 1.5rem;
+    }
+
+    .additional-text {
+        display: none;
+    }
+
+}
+
+/* Larger devices */
+
+@media only screen and (min-width: 500px) {
+
+    
+
+    h3 {
+        font-size:.9rem;
+        margin-bottom: 15px;
+    }
+    
+
+
+    
+    .card-container {
+        
+      
+        margin-left: 25px;
+        margin-right: 25px;
+        margin-top: 25px;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center; 
+        border-radius: 25px 25px 0px 0px;
+        width: 100%;
+        height: 380px;
+        background: $secondary-color;
+        
+        h4 {
+            margin-bottom: 15px;
+        }
+        
+        ul {
+            margin-bottom: 15px;
+        }
+
+        .box{
+            padding-bottom:50px;
+            background: $primary-color;
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+            border-radius: 25px 25px 0px 0px;
+            width: 95%;
+            height: 80%;
+
+        
+          .list-heading{
+            font-size: 1.4em;
+            list-style: none;
+          }    
+          .list {
+            margin-top: 30px;
+            margin-left: 30px;
+            font-size: .45em;
+            line-height: 2em; 
+                    
+          }
+          .sub-list {
+            margin-left: 15px;
+          }
+        }
+    }
+    .resume-card-container-container {
+        width: 30%;
+        min-width: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+        .resume-card-container {
+
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border-radius: 25px 25px 0px 0px;
+            width: 5%;
+            min-width: 250px;
+            height: 200px;
+            background: $secondary-color;
+                    
+            h4 {
+                margin: 12px 0px 12px 5px;
+            }
+            .box{
+                background: $primary-color;
+                display: flex;
+                justify-content: flex-start;
+                align-items: flex-start;
+                border-radius: 25px 25px 0px 0px;
+                width: 95%;
+                height: 80%;
+            }
+            .resume-icon-container{
+                display:flex;
+                justify-content: center;
+                align-items: center;
+                width:100%;
+                height: 100%;
+            }
+            .resume-icon {
+                height: 50%;
+                width: 50%;
+                margin-left: 20px;
+            }
+        }
+    }
+    .introduction-container {
+        margin: 20px 35px;
+        width:50%;
+        .introduction-text {
+            width: 100%;
+            font-size: .5rem;
+            line-height : 1rem;
+        }  
+    }
+    .all-cards {
+    
+        width: 50%;
+        display: flex;
+        flex-wrap:wrap-reverse;
+        justify-content: center;
+        .card-container {
+            
+            max-width: 250px;
+            
+        }
+    }
+
+    .card-container-container {
+
+        display: flex;
+        
+        justify-content: center;
+        align-items: flex-end;
+        max-width: 100%;
+        .card-container {
+            min-width: 300px;
+            max-width: 500px;
+        }
+        
+    }
+    .about {
+        color: $primary-color;
+        margin: 25px;
+        display: flex;
+        flex-direction: column;
+
+        
+        .about-top {
+
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+    }
+    .qualifications-container {
+        margin-top:50px;
+        width: 50%;
+    
+   
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+
+        .qualifications-text {
+            width: 100%;
+            line-height: 1.4rem;
+            font-size:.5em;
+            margin-left: 5px;
+        }
+        
+        .qualifications-content {
+            margin-left:15px;
+
+            max-width: 800px;
+
+            width: 50%;
+ 
+        }
+        .koala-image-container {
+            width:20%;
+            min-width: 100px;
+            
+
+            display: flex;
+            align-items: flex-end;
+            
+            .koala-image {
+                max-width: 100px;
+
+            }
+
+        }
+    }
+
+    .about-bottom {
+          
+
+        width: 100%;
+        display: flex;
+        flex-direction: row-reverse;
+        flex-wrap: wrap;
+        align-items: center;
+       
+        justify-content: space-evenly;
+
+    }
+
+
+
+}
+
+/* Extra Large devices */
+
+
+@media only screen and (min-width: 1440px) {
+
+
+
+    .about {
+        margin: 0;
+        padding: 0;
+        color: $primary-color;
+
+        h3 {
+            line-height: .9em;
+            font-size :1.2rem;
+            margin-bottom: 25px;
+        }
+        .all-cards {
+            display: flex;
+            align-items: center;
+            width: 50%;
+             
+            .card-container {
+                max-width: 250px;
+            }
+
+        }
+        .qualifications-container{
+            display: flex;
+            flex-direction: row;
+            align-items: flex-end;
+            width: 50%;
+            min-width: 750px;
+            .qualifications-content {
+                max-width: 1800px;
+
+                .qualifications-text {
+                    font-size: .6em;
+                    line-height: 1.8em;
+
+                }
+            }
+           
+
+        }
+
+        .about-top {
+            width: 100%;
+        }
+        .about-bottom {
+          
+
+            width: 100%;
+            display: flex;
+            flex-direction: row-reverse;
+            flex-wrap: wrap;
+            align-items: center;
+           
+            justify-content: space-evenly;
+
+        }
+    }
+
+    .card-container {
+        
+      
+        margin-left: 25px;
+        margin-right: 25px;
+        margin-top: 25px;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center; 
+        border-radius: 25px 25px 0px 0px;
+        width: 100%;
+        height: 380px;
+        background: $secondary-color;
+        
+        h4 {
+            margin-bottom: 15px;
+        }
+        
+        ul {
+            margin-bottom: 15px;
+        }
+
+        .box{
+            padding-bottom:50px;
+            background: $primary-color;
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+            border-radius: 25px 25px 0px 0px;
+            width: 95%;
+            height: 80%;
+
+        
+          .list-heading{
+            font-size: 1.4em;
+            list-style: none;
+          }    
+          .list {
+            margin-top: 30px;
+            margin-left: 30px;
+            font-size: .45em;
+            line-height: 2em; 
+                    
+          }
+          .sub-list {
+            margin-left: 15px;
+          }
+        }
+    }
+    
+    
+    .introduction-container {
+        line-height: 1.5em;
+        width: 60%;
+
+        .introduction-text {
+            line-height: 2em;
+        }
+    }
+    .resume-card-container-container {
+        width: 30%;
+        min-width: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+        .resume-card-container {
+
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border-radius: 25px 25px 0px 0px;
+            width: 5%;
+            min-width: 250px;
+            height: 200px;
+            background: $secondary-color;
+                    
+            h4 {
+                margin: 12px 0px 12px 5px;
+            }
+            .box{
+                background: $primary-color;
+                display: flex;
+                justify-content: flex-start;
+                align-items: flex-start;
+                border-radius: 25px 25px 0px 0px;
+                width: 95%;
+                height: 80%;
+            }
+            .resume-icon-container{
+                display:flex;
+                justify-content: center;
+                align-items: center;
+                width:100%;
+                height: 100%;
+            }
+            .resume-icon {
+                height: 50%;
+                width: 50%;
+                margin-left: 20px;
+            }
+        }
+    }
+
+
+
+
+}

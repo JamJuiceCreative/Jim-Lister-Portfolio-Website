@@ -1,0 +1,203 @@
+
+
+
+
+/* small devices (portrait tablet and large phones */
+
+@media only screen and (max-width: 500px) {
+
+    .header {
+        display: flex;
+        flex-direction: column;
+        background-image: url(../../images/header-background.jpg);
+        background-repeat: no-repeat;
+        display: flex;
+        text-align: right;
+        font-size: 1.2rem;
+
+        .large-heading {
+            display: none;
+        }
+        .header-top {
+            display: flex;
+        }
+        .header-bottom {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;  
+        }
+        .small-heading {
+            margin-right: 25px;
+           
+        }
+        .jim-illustration {
+            margin-left: 25px;
+            position: relative;
+            width: 80%;
+            left: 50px;  
+        }
+        .nav {
+            display: none;  
+        }
+        h1 {
+            margin-right: 15px;
+            margin-top:15px;
+            font-size: .75em;  
+        }
+        .home-icon {  
+            margin-top: 15px;
+            margin-left: 15px;
+            min-width: 50px;
+        }
+        .menu-icon {
+            min-width: 50px;
+            margin-right: 15px;
+            margin-bottom: 15px;
+        }
+    }
+
+}
+
+/* Larger Devices */
+
+@media only screen and (min-width: 500px) {
+
+    .header {
+
+        text-overflow: none;
+        display: flex;
+        flex-direction: column;
+        background-image: url(../../images/header-background.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 480px;
+        display: flex;
+        text-align: right;
+        font-size: 2rem;
+
+        .header-top-span {
+            width: 10%;
+        }
+        .large-heading {
+            margin-right: 50px;
+            color: white;
+            font-size: 1.5rem;
+        }
+        .small-heading {
+            display: none;
+        }
+        .header-top {
+            display: flex;
+            justify-content: space-between;
+        }
+        .header-bottom {
+            display: flex;
+            justify-content:space-between;
+        }
+        .jim-illustration {
+            position: relative;
+            bottom: 30px;
+            margin-left:50px;
+            height: 100%;
+        }
+        .outside-nav {
+            width:100%;
+            display: flex;
+        }
+        .nav {
+            width:100%;
+            display: flex;
+            justify-content: flex-end;
+            font-size: .5em;
+            margin-top: 40px;
+            margin-right: 50px;
+            span {
+                width: 30%;
+            }
+            ul {
+                
+                white-space:nowrap;
+                width: 75%;
+                display: flex;
+                justify-content: space-between;
+                list-style: none;
+                color: white;
+                a {
+                    margin:10px;
+                    text-decoration: none;
+                    width: 20%;
+                }
+                & :visited {
+                    color: white; 
+                }
+            }   
+        }
+
+        h1 {
+            margin-right: 25px;
+            margin-top:15px;
+            font-size: .75em;
+        }
+
+        .home-icon-container {
+            width: 5%;
+            position: relative;
+            bottom: 5px;
+            align-self: left;
+            .home-icon {
+                margin-top: 20px;
+                margin-left: 20px;
+                
+                min-width: 70px;
+                width: 100%;
+            }
+        }
+        .menu-icon {
+            display: none;
+            width: 50px;
+            margin-right: 15px;
+            margin-bottom: 15px;
+        }
+
+    }
+
+}
+
+// Extra Large Devices
+
+@media only screen and (min-width: 1440px) {
+
+    .header {
+        /* border: solid 3px red; */
+        height: 100%;
+        height: 500px;
+        .jim-illustration {
+            min-height: 300px;
+            
+            position: relative;
+            left: 40px;
+            
+        }
+        .large-heading {
+            font-size: 2rem;
+            margin-left :50px;
+        }
+
+        .nav  {
+            
+                font-size: 1rem;
+            
+        }
+        .home-icon-container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-width: 90px;
+            .home-icon {
+                min-width: 100%;
+            }
+            
+        }
+    }
+
+}

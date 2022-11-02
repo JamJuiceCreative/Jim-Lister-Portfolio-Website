@@ -1,0 +1,20 @@
+.blog-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: magenta;
+    width: 100%;
+    height: 500px;
+    .blog-box {
+        margin: 15px;
+        width: 50%;
+        height: 50%;
+        background: cyan;
+    }
+
+    img {
+        width: 100%;
+        height: 100%;
+    }
+}
