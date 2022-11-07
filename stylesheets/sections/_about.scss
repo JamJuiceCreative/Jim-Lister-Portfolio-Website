@@ -399,6 +399,7 @@
 
         }
         .qualifications-container{
+            margin-bottom: 25px;
             display: flex;
             flex-direction: row;
             align-items: flex-end;
@@ -437,9 +438,7 @@
     .card-container {
         
       
-        margin-left: 25px;
-        margin-right: 25px;
-        margin-top: 25px;
+        margin: 25px 25px 25px 25px;
         color: white;
         display: flex;
         flex-direction: column;

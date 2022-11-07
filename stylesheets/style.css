@@ -41,6 +41,7 @@
     margin-right: 15px;
     margin-top: 15px;
     font-size: 0.75em;
+    color: white;
   }
   .header .home-icon {
     margin-top: 15px;
@@ -495,6 +496,7 @@
     max-width: 250px;
   }
   .about .qualifications-container {
+    margin-bottom: 25px;
     display: flex;
     flex-direction: row;
     align-items: flex-end;
@@ -520,9 +522,7 @@
     justify-content: space-evenly;
   }
   .card-container {
-    margin-left: 25px;
-    margin-right: 25px;
-    margin-top: 25px;
+    margin: 25px 25px 25px 25px;
     color: white;
     display: flex;
     flex-direction: column;
@@ -612,23 +612,303 @@
     margin-left: 20px;
   }
 }
-.blog-container {
+h1 {
+  color: #15214B;
+  text-align: center;
+  margin-top: 15px;
+  font-size: 1.2em;
+  padding: 0px 15px 0px 15px;
+}
+
+@media only screen and (max-width: 500px) {
+  .blog-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    background: white;
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 500px;
+  }
+  .blog-container .blog-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 25px;
+    width: 100%;
+    height: 300px;
+    background: #0A629C;
+    border-radius: 25px 25px 0px 0px;
+    box-shadow: 5px 5px 5px black;
+  }
+  .blog-container .blog-box .speech-bubble-icon {
+    position: relative;
+    bottom: -50px;
+    right: -50px;
+    width: 100px;
+    float: left;
+  }
+  .blog-container .blog-box .blog-heading-container {
+    display: flex;
+    justify-content: center;
+    height: 20%;
+    margin-bottom: 50px;
+  }
+  .blog-container .blog-box .start-comma {
+    min-width: 50px;
+    max-width: 50px;
+    position: relative;
+    left: -15px;
+    top: -25px;
+  }
+  .blog-container .blog-box h5 {
+    text-align: center;
+    width: 100%;
+    min-width: 230px;
+    margin-bottom: 15px;
+    padding: 15px;
+  }
+  .blog-container .blog-box .end-comma {
+    min-width: 50px;
+    max-width: 50px;
+    position: relative;
+    right: -30px;
+    top: 25px;
+  }
+  .blog-container .blog-box p {
+    font-size: small;
+    height: 100%;
+    margin: 15px 0px 0px 15px;
+  }
+  .blog-container .blog-box .float {
+    float: right;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    shape-outside: circle(102px at 93px 148px);
+  }
+  .blog-container .blog-box .blog-image {
+    width: 25vw;
+    height: 15vh;
+    border-top-left-radius: 100px;
+    float: right;
+  }
+  .blog-container .blog-box .blog-content {
+    display: flex;
+    background: #15214B;
+    resize: horizontal;
+    width: 90%;
+    height: 60%;
+    margin-bottom: -50px;
+    border-radius: 15px 15px 0px 0px;
+    overflow: hidden;
+  }
+}
+@media only screen and (min-width: 500px) {
+  .blog-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+    align-items: center;
+    background: white;
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+  }
+  .blog-container .blog-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 50px;
+    width: 100%;
+    max-width: 400px;
+    height: 35vh;
+    background: #0A629C;
+    border-radius: 25px 25px 0px 0px;
+    box-shadow: 5px 5px 5px black;
+  }
+  .blog-container .blog-box .speech-bubble-icon {
+    position: relative;
+    bottom: -50px;
+    right: -50px;
+    width: 100px;
+    float: left;
+  }
+  .blog-container .blog-box .blog-heading-container {
+    display: flex;
+    justify-content: center;
+    height: 20%;
+    margin-bottom: 50px;
+  }
+  .blog-container .blog-box .start-comma {
+    min-width: 50px;
+    max-width: 50px;
+    position: relative;
+    left: -15px;
+    top: -25px;
+  }
+  .blog-container .blog-box h5 {
+    text-align: center;
+    width: 100%;
+    min-width: 300px;
+    margin-bottom: 15px;
+    padding: 15px;
+  }
+  .blog-container .blog-box h5 .blog-heading {
+    overflow: hidden;
+  }
+  .blog-container .blog-box .end-comma {
+    min-width: 50px;
+    max-width: 50px;
+    position: relative;
+    right: -30px;
+    top: 25px;
+  }
+  .blog-container .blog-box p {
+    font-size: small;
+    height: 100%;
+    margin: 15px 0px 0px 15px;
+  }
+  .blog-container .blog-box .float {
+    float: right;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    shape-outside: circle(102px at 93px 148px);
+  }
+  .blog-container .blog-box .blog-image {
+    width: 25vw;
+    height: 15vh;
+    max-width: 120px;
+    border-top-left-radius: 100px;
+    float: right;
+  }
+  .blog-container .blog-box .blog-content {
+    display: flex;
+    background: #15214B;
+    resize: horizontal;
+    width: 90%;
+    height: 60%;
+    margin-bottom: -50px;
+    border-radius: 15px 15px 0px 0px;
+    overflow: hidden;
+  }
+}
+.form-container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: magenta;
-  width: 100%;
-  height: 500px;
+  background: #0A629C;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 80%;
+  height: 100vh;
+  border-radius: 50px 50px 0px 0px;
 }
-.blog-container .blog-box {
-  margin: 15px;
-  width: 50%;
-  height: 50%;
-  background: cyan;
+.form-container h1 {
+  margin-bottom: 30px;
+  color: white;
 }
-.blog-container img {
-  width: 100%;
+.form-container .form-box {
+  background: #15214B;
+  width: 70%;
+  height: 80%;
+  width: 95%;
+  margin-bottom: 25px;
+  border-radius: 50px 50px 0px 0px;
+}
+.form-container .form-box form {
+  font-size: 0.6em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 90%;
+  width: 70vw;
+  margin-top: 50px;
+}
+.form-container .form-box .form {
   height: 100%;
+  width: 100%;
+}
+.form-container .form-box .first-name {
+  margin: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  overflow: hidden;
+  width: 100%;
+  max-width: 800px;
+}
+.form-container .form-box .first-name label {
+  width: 20%;
+  margin-left: 25px;
+}
+.form-container .form-box #first-name {
+  width: 60%;
+  height: 50px;
+  margin-left: 25px;
+}
+.form-container .form-box .last-name {
+  margin: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  overflow: hidden;
+  width: 100%;
+  max-width: 800px;
+}
+.form-container .form-box .last-name label {
+  width: 20%;
+  margin-left: 25px;
+}
+.form-container .form-box .last-name #last-name {
+  width: 60%;
+  height: 50px;
+  margin-left: 25px;
+}
+.form-container .form-box .email {
+  margin: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  overflow: hidden;
+  width: 100%;
+  max-width: 800px;
+}
+.form-container .form-box .email label {
+  width: 20%;
+  margin-left: 25px;
+}
+.form-container .form-box .email #email {
+  width: 60%;
+  height: 50px;
+  margin-left: 25px;
+}
+.form-container .form-box #message {
+  width: 60%;
+  height: 50px;
+  margin-left: 25px;
+  width: 90%;
+  max-width: 900px;
+}
+.form-container .form-box #submit {
+  font-family: "Allerta", sans-serif;
+  font-size: 1em;
+  color: white;
+  border-radius: 15px;
+  width: 100px;
+  background: #0A629C;
+  padding: 15px;
+  margin: 15px;
 }
 
 /* small devices (portrait tablet and large phones */
@@ -639,7 +919,6 @@
     width: 100%;
   }
   footer .footer-container {
-    margin: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -671,7 +950,6 @@
     width: 100%;
   }
   footer .footer-container {
-    margin: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -711,7 +989,7 @@ html {
 body {
   color: white;
   font-family: "Allerta", sans-serif;
-  max-width: 1440;
+  max-width: 1920px;
 }
 
 @media only screen and (max-width: 500px) {

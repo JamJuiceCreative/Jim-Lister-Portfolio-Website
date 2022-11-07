@@ -1,0 +1,107 @@
+@mixin form-layout {
+    margin: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: hidden;      
+    width: 100%;
+    max-width: 800px;
+    label{
+      width: 20%;
+      margin-left: 25px;
+            }
+}
+
+@mixin input-layout {
+    width: 60%;
+    height: 50px;
+    margin-left: 25px;
+
+}
+
+
+.form-container {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: $secondary-color;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 80%;
+    height: 100vh;
+    border-radius: 50px 50px 0px 0px;
+    h1 {
+        margin-bottom: 30px;
+        color: white;
+    }
+    .form-box {
+        
+        background: $primary-color;
+        width: 70%;
+        height: 80%;
+        width: 95%;
+        margin-bottom: 25px;
+        border-radius: 50px 50px 0px 0px;
+
+        form {
+          
+            font-size: .6em;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            height: 90%;
+            width:70vw;
+            margin-top: 50px;
+        }
+        .form {
+            height: 100%;
+            width: 100%;
+        }
+
+        .first-name{
+            @include form-layout;
+               
+            }
+            #first-name{
+              @include input-layout;
+            }
+        
+        .last-name {
+           @include form-layout;
+           #last-name{
+            @include input-layout;
+           }
+        }
+
+        .email {
+            @include form-layout;
+            #email {
+                @include input-layout;
+            }
+        }
+
+        #message {
+            @include input-layout;
+            width: 90%;
+            max-width: 900px;
+           
+        }
+        #submit {
+            font-family:'Allerta', sans-serif;
+            font-size: 1em;
+            color: white;
+            border-radius: 15px;
+            width: 100px;
+            background: $secondary-color;
+            padding: 15px;
+            margin: 15px; 
+        }
+    
+    }
+}
+
