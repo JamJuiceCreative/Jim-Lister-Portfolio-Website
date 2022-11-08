@@ -1,22 +1,18 @@
 /* small devices (portrait tablet and large phones */
 
 @media only screen and (max-width: 500px) {
-
-   
-    
-
-    .about {
-        
-        margin:25px 15px;
+    .about {   
+        margin:5px 15px;
         display: flex;
         flex-direction: column;
         color: $primary-color;
         p {
-            font-size: .75rem;
+            font-size: .6rem;
             margin: 25px;
             text-align: center;
         text-align: left;}
         h3 {
+            font-size: .8em;
             margin: 25px 0px 20px 5px;
         }
         h4 {
@@ -27,7 +23,6 @@
 
     .resume-card-container-container {
         width: 100%;
-        
         display: flex;
         justify-content: center;
         align-items: center;
@@ -139,7 +134,8 @@
     }
 
     .qualifications-text {
-        line-height: 1.8rem;
+        line-height: 1.6rem;
+        font-size: 1.2em;
     }
 
     .introduction-text {

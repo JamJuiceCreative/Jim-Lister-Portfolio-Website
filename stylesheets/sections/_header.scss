@@ -56,7 +56,57 @@
             margin-bottom: 15px;
         }
     }
+    .hamburger {
+          :before {
+          display: none;
+          }
+          :hover {
+            display: none;
+          }
 
+        }
+
+        .dropdown-menu {
+            text-align: center;
+            color: white;
+            list-style: none;
+            
+            ul{
+                display: flex;
+                /* flex-direction: column;
+                align-items: flex-end; */
+                height: 40px;
+                .dropdown{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background: $primary-color;
+                    width: 20%;
+                    
+                    
+                    margin: 1px;
+                    li {
+                        display: flex;
+                        list-style: none;
+                        margin: 1px;
+                        
+                        a {
+                          font-size: .5em;
+                          text-decoration: none;
+                          background: $primary-color;
+                          padding: 1px;
+                          
+                        }
+                        a:visited {
+                            color: white;
+                          }
+                    }
+                }
+                
+            }
+           
+        }
+    
 }
 
 /* Larger Devices */
@@ -124,6 +174,7 @@
                 list-style: none;
                 color: white;
                 a {
+                    color: white;
                     margin:10px;
                     text-decoration: none;
                     width: 20%;
@@ -160,6 +211,9 @@
             margin-bottom: 15px;
         }
 
+    }
+    .dropdown-menu {
+        display: none;
     }
 
 }
