@@ -1,15 +1,19 @@
+/* Contact form */
+
 @mixin form-layout {
     margin: 15px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    overflow: hidden;      
+    align-items: center;
+          
     width: 100%;
     max-width: 800px;
     label{
       width: 20%;
       margin-left: 25px;
-            }
+      font-size: smallest;
+    }
 }
 
 @mixin input-layout {
@@ -18,8 +22,6 @@
     margin-left: 25px;
 
 }
-
-
 .form-container {
     
     display: flex;
@@ -46,7 +48,6 @@
         width: 95%;
         margin-bottom: 25px;
         border-radius: 50px 50px 0px 0px;
-
         form {
           
             font-size: .6em;
@@ -62,34 +63,28 @@
             height: 100%;
             width: 100%;
         }
-
         .first-name{
-            @include form-layout;
-               
+            @include form-layout;    
             }
             #first-name{
               @include input-layout;
             }
-        
         .last-name {
            @include form-layout;
            #last-name{
             @include input-layout;
            }
         }
-
         .email {
             @include form-layout;
             #email {
                 @include input-layout;
             }
         }
-
         #message {
             @include input-layout;
             width: 90%;
-            max-width: 900px;
-           
+            max-width: 900px;   
         }
         #submit {
             font-family:'Allerta', sans-serif;
@@ -105,3 +100,16 @@
     }
 }
 
+/* Contact Info */
+
+.contact-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+    h2 {
+        color: $primary-color;
+        font-size: smaller;
+    }
+}

@@ -61,11 +61,16 @@
                 align-items: center;
                 width:100%;
                 height: 100%;
+                a {
+                    width: 50%;
+                    height: 50% 
+                }
             }
             .resume-icon {
-                height: 50%;
-                width: 50%;
-                margin-left: 40px;
+                height: 100%;
+                width: 100%;
+                margin-left:20px;
+                
             }
         }
     }
@@ -251,11 +256,15 @@
                 align-items: center;
                 width:100%;
                 height: 100%;
+                a {
+                    width: 50%;
+                    height: 50% 
+                }
             }
             .resume-icon {
-                height: 50%;
-                width: 50%;
-                margin-left: 20px;
+                height: 100%;
+                width: 100%;
+                margin-left: 10px;
             }
         }
     }
@@ -528,11 +537,17 @@
                 align-items: center;
                 width:100%;
                 height: 100%;
+                                a {
+                    width: 50%;
+                    height: 50% 
+                }
+                
             }
             .resume-icon {
-                height: 50%;
-                width: 50%;
-                margin-left: 20px;
+                height: 100%;
+                width: 100%;
+                margin-left: 10px;
+
             }
         }
     }

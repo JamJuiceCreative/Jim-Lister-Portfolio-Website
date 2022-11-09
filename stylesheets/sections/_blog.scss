@@ -28,7 +28,7 @@ h1{
             justify-content: flex-end;
             align-items: center;
             margin: 25px;
-            width: 100%;
+            width: 85%;
             height: 300px;
             background: $secondary-color;
             border-radius: 25px 25px 0px 0px;
@@ -39,68 +39,59 @@ h1{
                 right: -50px;
                 width: 100px;
                 float: left;
-            
             }
-
             .blog-heading-container {
                 display: flex;
                 justify-content: center;
                 height: 20%;
                 margin-bottom: 50px;
+                .blog-heading{
+                    width: 80%;
+                    text-decoration: none;
+                }
+                .blog-post-date{
+                    width: 10%; 
+                }
             }
-
             .start-comma {
                 min-width: 50px;
                 max-width: 50px;
                 position: relative;
                 left: -15px;
-                top: -25px;
-                
-                
+                top: -25px;    
             }
-    
             h5 { 
-                text-align: center;
+                text-align: left;
                 width: 100%;
-                min-width: 230px;
                 margin-bottom: 15px;
                 padding: 15px;
+                font-size: .5em;
             }
-
             .end-comma {
                 min-width: 50px;
                 max-width: 50px;
                 position: relative;
-                right: -30px;
-                top: 25px;
-              
-            
+                right: 50px;
+                top: 50px;
             }
-    
             p {
                 font-size: small;
                 height: 100%;
                 margin: 15px 0px 0px 15px;
             }
-    
             .float {
                 float: right;
                 height: 100%;
                 display: flex;
                 align-items: flex-end;
-                shape-outside: circle(102px at 93px 148px);
-                
+                shape-outside: circle(102px at 92px 139px);   
             }
             .blog-image {
-                
                 width: 25vw;
                 height: 15vh;
                 border-top-left-radius: 100px;
-                float: right;
-                
-                
+                float: right;  
             }
-    
             .blog-content {
                 display: flex;
                 background: $primary-color;
@@ -110,16 +101,21 @@ h1{
                 margin-bottom: -50px;
                 border-radius: 15px 15px 0px 0px;
                 overflow: hidden;
+                .blog-copy {
+                    color: white;
+                }
             }
         }
-    
-        
-    
-
+        a {
+            text-decoration: none;
+            color: white;
+        }
     }
 }
 
 @media only screen and (min-width: 500px) {
+
+
 
     .blog-container {
         display: flex;
@@ -155,10 +151,19 @@ h1{
             }
 
             .blog-heading-container {
+                
                 display: flex;
                 justify-content: center;
+                align-items: flex-start;
                 height: 20%;
                 margin-bottom: 50px;
+                width: 100%;
+                .blog-heading{
+                    width: 90%;
+                }
+                .blog-post-date{
+                    width: 10%;
+                }
             }
 
             .start-comma {
@@ -170,24 +175,21 @@ h1{
                 
                 
             }
+            
     
             h5 { 
-                text-align: center;
-                width: 100%;
-                min-width: 300px;
+                font-size: .6em;
+                text-align: left;
                 margin-bottom: 15px;
                 padding: 15px;
-                .blog-heading {
-                    overflow: hidden;
-                }
             }
 
             .end-comma {
                 min-width: 50px;
                 max-width: 50px;
                 position: relative;
-                right: -30px;
-                top: 25px;
+                right: 50px;
+                top: 50px;
               
             
             }
@@ -203,7 +205,7 @@ h1{
                 height: 100%;
                 display: flex;
                 align-items: flex-end;
-                shape-outside: circle(102px at 93px 148px);
+                shape-outside: circle(97px at 89px 119px);
                 
             }
             .blog-image {
@@ -231,10 +233,10 @@ h1{
                 color: white;
             }
         }
-    
-        
-    
-
+    }
+    a {
+        text-decoration: none;
+        color: white;
     }
 }
 
