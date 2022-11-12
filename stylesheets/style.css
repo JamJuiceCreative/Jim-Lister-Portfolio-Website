@@ -1,9 +1,12 @@
-/* $primary-color: #15214B; */
+/* default settings */
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-} /* small devices (portrait tablet and large phones */
+}
+
+/* components */
+/* small devices (portrait tablet and large phones */
 @media only screen and (max-width: 500px) {
   .header {
     display: flex;
@@ -220,6 +223,7 @@
 }
 /* small devices (portrait tablet and large phones */
 @media only screen and (max-width: 500px) {
+  /* styling for about section */
   .about {
     margin: 5px 15px;
     display: flex;
@@ -239,6 +243,7 @@
   .about h4 {
     margin: 25px 0px 25px 5px;
   }
+  /* styling for resume card */
   .resume-card-container-container {
     width: 100%;
     display: flex;
@@ -287,6 +292,7 @@
     width: 100%;
     margin-left: 20px;
   }
+  /*     styling for "card" component */
   .card-container {
     margin-top: 25px;
     color: white;
@@ -398,6 +404,7 @@
     font-size: 0.9rem;
     margin-bottom: 15px;
   }
+  /* styling for "card" component on larger devices */
   .card-container {
     margin-left: 25px;
     margin-right: 25px;
@@ -441,6 +448,7 @@
   .card-container .box .sub-list {
     margin-left: 15px;
   }
+  /*     styling for resume card on larger devices */
   .resume-card-container-container {
     width: 30%;
     min-width: 500px;
@@ -527,6 +535,7 @@
     justify-content: space-around;
     flex-wrap: wrap;
   }
+  /*     styling for qualifications section on larger devices */
   .qualifications-container {
     margin-top: 50px;
     width: 50%;
@@ -554,6 +563,7 @@
   .qualifications-container .koala-image-container .koala-image {
     max-width: 100px;
   }
+  /*     Styling for about section for larger devices */
   .about-bottom {
     width: 100%;
     display: flex;
@@ -601,6 +611,7 @@
 }
 /* Extra Large devices */
 @media only screen and (min-width: 1440px) {
+  /* overall styling for about section on extra large devices */
   .about {
     margin: 0;
     padding: 0;
@@ -645,6 +656,7 @@
     align-items: center;
     justify-content: space-evenly;
   }
+  /* Styling for "cards" on extra large devices */
   .card-container {
     margin: 25px 25px 25px 25px;
     color: white;
@@ -686,6 +698,7 @@
   .card-container .box .sub-list {
     margin-left: 15px;
   }
+  /*     introduction section */
   .introduction-container {
     line-height: 1.5em;
     width: 60%;
@@ -693,6 +706,7 @@
   .introduction-container .introduction-text {
     line-height: 2em;
   }
+  /*     styling for resume card on extra large devices */
   .resume-card-container-container {
     width: 30%;
     min-width: 500px;
@@ -748,6 +762,7 @@ h1 {
   padding: 0px 15px 0px 15px;
 }
 
+/* small devices (portrait tablet and large phones */
 @media only screen and (max-width: 500px) {
   .blog-container {
     display: flex;
@@ -849,6 +864,7 @@ h1 {
     color: white;
   }
 }
+/* Larger devices */
 @media only screen and (min-width: 500px) {
   .blog-container {
     display: flex;
@@ -1095,6 +1111,7 @@ p {
   font-size: 0.5em;
 }
 
+/* small devices (portrait tablet and large phones */
 @media only screen and (max-width: 500px) {
   .gallery-container {
     display: flex;
@@ -1149,6 +1166,7 @@ p {
     overflow: hidden;
   }
 }
+/* Larger devices */
 @media only screen and (min-width: 500px) {
   .gallery-container {
     display: flex;
@@ -1221,6 +1239,7 @@ p {
   font-size: 0.5em;
 }
 
+/* small devices (portrait tablet and large phones */
 @media only screen and (max-width: 500px) {
   .projects-container {
     display: flex;
@@ -1284,6 +1303,7 @@ p {
     margin-bottom: 25px;
   }
 }
+/* Larger devices */
 @media only screen and (min-width: 500px) {
   .projects-container {
     display: flex;
@@ -1425,6 +1445,7 @@ p {
     font-size: 0.9rem;
   }
 }
+/* All pages basic styles */
 html {
   font-size: 24pt;
 }

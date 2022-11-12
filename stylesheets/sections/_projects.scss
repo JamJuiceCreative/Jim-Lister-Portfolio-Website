@@ -14,6 +14,8 @@ p {
     font-size: .5em;
 }
 
+/* small devices (portrait tablet and large phones */
+
 @media only screen and (max-width: 500px) {
 
     .projects-container {
@@ -88,6 +90,8 @@ p {
         }
     }
 }
+
+/* Larger devices */
 
 @media only screen and (min-width: 500px) {
 

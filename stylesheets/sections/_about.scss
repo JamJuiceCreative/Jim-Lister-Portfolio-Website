@@ -1,6 +1,9 @@
 /* small devices (portrait tablet and large phones */
 
 @media only screen and (max-width: 500px) {
+
+/* styling for about section */
+
     .about {   
         margin:5px 15px;
         display: flex;
@@ -20,7 +23,7 @@
         }
         
     }
-
+/* styling for resume card */
     .resume-card-container-container {
         width: 100%;
         display: flex;
@@ -74,7 +77,7 @@
             }
         }
     }
-    
+/*     styling for "card" component */
     .card-container {
         margin-top: 25px;
         color: white;
@@ -211,7 +214,7 @@
     }
     
 
-
+/* styling for "card" component on larger devices */
     
     .card-container {
         
@@ -264,6 +267,9 @@
           }
         }
     }
+
+/*     styling for resume card on larger devices */
+
     .resume-card-container-container {
         width: 30%;
         min-width: 500px;
@@ -365,6 +371,9 @@
         }
 
     }
+
+/*     styling for qualifications section on larger devices */
+
     .qualifications-container {
         margin-top:50px;
         width: 50%;
@@ -404,6 +413,8 @@
 
         }
     }
+
+/*     Styling for about section for larger devices */
 
     .about-bottom {
           
@@ -471,7 +482,7 @@
 
 @media only screen and (min-width: 1440px) {
 
-
+/* overall styling for about section on extra large devices */
 
     .about {
         margin: 0;
@@ -529,6 +540,7 @@
 
         }
     }
+/* Styling for "cards" on extra large devices */
 
     .card-container {
         
@@ -580,7 +592,7 @@
         }
     }
     
-    
+/*     introduction section */
     .introduction-container {
         line-height: 1.5em;
         width: 60%;
@@ -589,6 +601,9 @@
             line-height: 2em;
         }
     }
+
+/*     styling for resume card on extra large devices */
+
     .resume-card-container-container {
         width: 30%;
         min-width: 500px;

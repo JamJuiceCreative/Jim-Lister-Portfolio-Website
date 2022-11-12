@@ -4,11 +4,11 @@
 
 ### <a href ="https://github.com/JamJuiceCreative/Jim-Lister-Portfolio-Website">Link to Git Hub Repo - https://github.com/JamJuiceCreative/Jim-Lister-Portfolio-Website</a>
 
-### <a href ="/"> Link to presentation video - </a>
+### <a href ="https://www.youtube.com/watch?v=WWCfUPYSYkI"> Link to presentation video - https://www.youtube.com/watch?v=WWCfUPYSYkI </a>
 
-# <p align="center"> Purpose </p>
+# <p align="center"> Purpose </p> 
 
-This portfolio is ultimatly going to be my go to website for showcasing my development projects to prospective employers. It's going to be the place where I can present myself as a developer as opposed to a graphic designer however I plan to include some graphic design portfolio elements in the future. I have attempted to make the design very me in that it includes some illustration as part of the design and an over all theme that I'm really happy with ie; a clean and elegant layout. I have also included a small section regarding my hobbies and interests as it's also important to find common interests with potential work colleagues and employers. 
+This portfolio is ultimately going to be my go to website for showcasing my development projects to prospective employers. It's going to be the place where I can present myself as a developer as opposed to a graphic designer however I plan to include some graphic design portfolio elements in the future. I have attempted to make the design very me in that it includes some illustration as part of the design and an over-all theme that I'm really happy with ie; a clean and elegant layout. I have also included a small section regarding my hobbies and interests as it's also important to find common interests with potential work colleagues and employers. 
 
 My main goal is to side step away from graphic design & sign making and move into a more technical field such as software development. Hopefully by the end of the course this website will be an invaluable tool in doing so.
 
@@ -53,7 +53,7 @@ The projects section consists of a couple of examples of dev work I have complet
 
 ## Gallery
 
-![Gallery](./read-me/gallery.jpg)
+![Gallery](./read-me/Gallery.jpg)
 
 The gallery section right now is a place holder which I intend to utilise in the future to showcase my graphic design port-folio. Right now it consists of two of the "card" elements "Gallery Cards" which house some images. These cards are responsive like the rest of the website. 
 
@@ -116,6 +116,7 @@ CSS Post  - Photo 172750204 © Transversospinales | Dreamstime.com
 Twitter Post - Photo by <a href="https://unsplash.com/@nate_dumlao?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Nathan Dumlao</a> on <a href="https://unsplash.com/s/photos/twitter?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
 ## Header Images
+
 Zombie - Illustration 97728166 © Drawkman | Dreamstime.com <br>
 BasketBall- Illustration 94748090 © Dragon_27 | Dreamstime.com
 Great-Dane-

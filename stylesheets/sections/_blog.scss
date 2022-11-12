@@ -8,6 +8,7 @@ h1{
     padding: 0px 15px 0px 15px;
     
 }
+/* small devices (portrait tablet and large phones */
 
 @media only screen and (max-width: 500px) {
 
@@ -112,6 +113,8 @@ h1{
         }
     }
 }
+
+/* Larger devices */
 
 @media only screen and (min-width: 500px) {
 
